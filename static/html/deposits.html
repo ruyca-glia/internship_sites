@@ -179,7 +179,7 @@
 
                     <label for="dcsat">How would you rate your experience with our deposit services? (1-10):</label>
                     <div class="csat-rating">
-                        <input type="number" id="dcsat" name="dcsat" min="1" max="10" step="1" value="10">
+                        <input type="number" id="dcsat" name="dcsat" min="1" max="10" step="1" value="10" oninput="this.setAttribute('value', this.value);">
                         <div class="scale-hint">
                             ( 1 = Very Dissatisfied &nbsp; &nbsp; 10 = Extremely Satisfied )
                         </div>

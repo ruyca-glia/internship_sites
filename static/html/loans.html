@@ -165,7 +165,7 @@
 
                     <label for="lcsat">How would you rate our loan service today? (1-10):</label>
                     <div class="csat-rating">
-                        <input type="number" id="lcsat" name="lcsat" min="1" max="10" step="1" value="10">
+                        <input type="number" id="lcsat" name="lcsat" min="1" max="10" step="1" value="10" oninput="this.setAttribute('value', this.value);">
                         <div class="scale-hint">
                             ( 1 = Very Dissatisfied &nbsp; &nbsp; 10 = Extremely Satisfied )
                         </div>
