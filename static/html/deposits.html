@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruy's Bank :: Deposits, Savings & Certificates</title>
+    <meta name="description" content="Deposit products page on the Ruy's Bank demo website. Demonstration purposes only - not a real bank.">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script async src="https://api.glia.com/salemove_integration.js"></script>
+</head>
+<body>
+
+<div class="disclaimer-bar">
+    *** NOTICE: THIS IS A DEMONSTRATION WEBSITE FOR DEBUGGING AND TESTING PURPOSES ONLY. RUY'S BANK IS NOT A REAL FINANCIAL INSTITUTION. DEPOSITS ARE FICTIONAL. ***
+</div>
+
+<div class="page-container">
+
+    <div class="bank-header">
+        <h1>&#9733; Ruy's Bank &#9733;</h1>
+        <div class="tagline">&quot;Where Your Trust Earns Compound Interest&quot;</div>
+        <div class="est">EST. 1987</div>
+    </div>
+
+    <ul class="nav-bar">
+        <li><a href="../../index.html">[ Home ]</a></li>
+        <li><a href="loans.html">[ Loans ]</a></li>
+        <li class="active"><a href="deposits.html">[ Deposits ]</a></li>
+        <li><a href="#assist">[ Contact Us ]</a></li>
+    </ul>
+
+    <div class="content">
+
+        <table class="layout-table">
+        <tr>
+        <td class="main-col">
+
+            <h2>Deposits &amp; Savings Accounts</h2>
+ 
+            <p>
+                Welcome to the Deposits Department of Ruy's Bank. Here at our
+                (entirely-make-believe) institution, we offer a wide variety of
+                pretend savings vehicles designed to help your imaginary money grow.
+                From classic passbook savings to Certificates of Deposit with
+                pleasingly high fictional yields, we have a product for every
+                hypothetical investor.
+            </p>
+
+            <div class="under-construction">
+                &#9888; FAKE VAULT UNDER CONSTRUCTION &#9888; <br>
+                Our digital security cameras are watching nothing in particular.
+            </div>
+
+            <h3>Deposit Products &amp; Rates <span class="new-badge">HOT!</span></h3>
+
+            <table class="rates-table">
+                <tr>
+                    <th>Account Type</th>
+                    <th>APY</th>
+                    <th>Min. Deposit</th>
+                    <th>Term</th>
+                </tr>
+                <tr>
+                    <td>Basic Savings</td>
+                    <td>0.50%</td>
+                    <td>$25</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>Premium Savings</td>
+                    <td>4.25%</td>
+                    <td>$1,000</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>Money Market Account</td>
+                    <td>4.65%</td>
+                    <td>$2,500</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>6-Month CD</td>
+                    <td>4.75%</td>
+                    <td>$500</td>
+                    <td>6 months</td>
+                </tr>
+                <tr>
+                    <td>12-Month CD</td>
+                    <td>5.10%</td>
+                    <td>$500</td>
+                    <td>12 months</td>
+                </tr>
+                <tr>
+                    <td>24-Month CD</td>
+                    <td>5.25%</td>
+                    <td>$1,000</td>
+                    <td>24 months</td>
+                </tr>
+                <tr>
+                    <td>60-Month CD</td>
+                    <td>5.50%</td>
+                    <td>$1,000</td>
+                    <td>60 months</td>
+                </tr>
+            </table>
+
+            <p style="font-size: 11px; font-style: italic; color: #555;">
+                * Annual Percentage Yields shown are entirely fictional. Early withdrawal
+                penalties also fictional. The entire bank is fictional.
+            </p>
+
+            <hr class="fancy">
+
+            <h3>Why Open a (Fake) Deposit Account?</h3>
+            <ul class="bullet-list">
+                <li>Watch your simulated balance grow over time.</li>
+                <li>Practice your form-filling skills in a safe environment.</li>
+                <li>Help QA engineers around the world test their integrations.</li>
+                <li>Enjoy the nostalgic warmth of beveled buttons and 800-pixel layouts.</li>
+            </ul>
+
+            <a href="#fine-print" class="read-more-link btn-3d">View The Fine Print &raquo;</a>
+            <a href="#hide-fine" class="read-more-link btn-3d">&laquo; Hide Fine Print</a>
+
+            <div class="expandable" id="fine-print">
+                <p><b>The Fine Print (which is the entire point of this site):</b></p>
+                <p>
+                    All rates, balances, account types, and bank policies described on
+                    this website are entirely fictional and exist solely for software
+                    testing, debugging, and demonstration purposes. Ruy's Bank is not
+                    a chartered financial institution in any jurisdiction.
+                </p>
+                <p>
+                    No deposits made through this site are insured by any agency,
+                    real or imaginary, because no deposits are actually made.
+                    Any forms submitted are not processed and any data entered
+                    is discarded.
+                </p>
+                <p>
+                    By using this site, you acknowledge that you understand it is
+                    a demonstration only. Please do not enter real personal information,
+                    real account numbers, or real money. There is no real money here.
+                </p>
+                <a href="#hide-fine" class="collapse-link">[ &times; Hide this section ]</a>
+            </div>
+            <div class="expandable" id="hide-fine"></div>
+
+            <h3 id="deposit-form">Open a New (Fake) Deposit Account</h3>
+
+            <form class="classic-form" action="#" method="post" onsubmit="return false;">
+
+                <fieldset>
+                    <legend>Account Holder Information</legend>
+
+                    <label for="dname">Full Name (test data only):</label>
+                    <input type="text" id="dname" name="dname" placeholder="Demo Customer">
+
+                    <label for="demail">E-Mail Address:</label>
+                    <input type="email" id="demail" name="demail" placeholder="demo@example.com">
+
+                    <label for="dproduct">Product of Interest:</label>
+                    <select id="dproduct" name="dproduct">
+                        <option value="">-- Please Select --</option>
+                        <option value="basic">Basic Savings</option>
+                        <option value="premium">Premium Savings</option>
+                        <option value="mm">Money Market Account</option>
+                        <option value="cd6">6-Month CD</option>
+                        <option value="cd12">12-Month CD</option>
+                        <option value="cd24">24-Month CD</option>
+                        <option value="cd60">60-Month CD</option>
+                    </select>
+
+                    <label for="damount">Initial Deposit Amount ($):</label>
+                    <input type="number" id="damount" name="damount" min="25" max="1000000" step="25" value="1000">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Service Survey (CSAT)</legend>
+
+                    <label for="dcsat">How would you rate your experience with our deposit services? (1-10):</label>
+                    <div class="csat-rating">
+                        <input type="number" id="dcsat" name="dcsat" min="1" max="10" step="1" value="10">
+                        <div class="scale-hint">
+                            ( 1 = Very Dissatisfied &nbsp; &nbsp; 10 = Extremely Satisfied )
+                        </div>
+                    </div>
+
+                    <label for="dcomments">What can we (pretend to) improve?</label>
+                    <textarea id="dcomments" name="dcomments" rows="3"></textarea>
+                </fieldset>
+
+                <div style="text-align: right; margin-top: 10px;">
+                    <button type="reset" class="btn-3d">Reset</button>
+                    &nbsp;
+                    <button type="submit" class="btn-3d btn-primary">Open Account &raquo;</button>
+                </div>
+
+            </form>
+
+            <div id="assist" style="text-align: center; margin: 20px 0;">
+                <button type="button" class="btn-3d btn-assistance">
+                    &#9742; Need Assistance?
+                </button>
+            </div>
+
+        </td>
+
+        <td class="side-col">
+
+            <div class="side-box">
+                <h4>&#9658; CD Maturity Chart</h4>
+                <p style="font-size: 11px;">
+                    See what your imaginary $1,000 could grow into at our pretend rates:
+                </p>
+                <table style="width: 100%; font-size: 11px; border-collapse: collapse;">
+                    <tr><td>6 mo</td><td style="text-align: right;"><b>$1,023</b></td></tr>
+                    <tr><td>12 mo</td><td style="text-align: right;"><b>$1,051</b></td></tr>
+                    <tr><td>24 mo</td><td style="text-align: right;"><b>$1,107</b></td></tr>
+                    <tr><td>60 mo</td><td style="text-align: right;"><b>$1,307</b></td></tr>
+                </table>
+                <p style="font-size: 10px; font-style: italic;">* Imaginary numbers.</p>
+            </div>
+
+            <div class="side-box">
+                <h4>&#9658; Vault Hours</h4>
+                <p style="font-size: 11px; line-height: 1.6;">
+                    <b>Mon - Fri:</b> 9:00am - 5:00pm<br>
+                    <b>Saturday:</b> 9:00am - 12:00pm<br>
+                    <b>Sunday:</b> Closed<br>
+                    <b>Online:</b> Always (since 1996)
+                </p>
+            </div>
+
+            <div class="callout-box">
+                <div class="callout-title">&#9888; Saver Tip</div>
+                <p style="margin: 0; font-size: 12px;">
+                    Real compound interest is one of the most powerful tools in personal
+                    finance. The compound interest on this page, however, is one of the
+                    most powerful tools in front-end testing.
+                </p>
+            </div>
+
+        </td>
+        </tr>
+        </table>
+
+    </div>
+
+    <div class="bank-footer">
+        <div>
+            <b>Ruy's Bank</b> &mdash; A Subsidiary of The Department of Things That Are Not Real
+        </div>
+        <div class="footer-links">
+            <a href="../../index.html">Home</a> |
+            <a href="loans.html">Loans</a> |
+            <a href="deposits.html">Deposits</a> |
+            <a href="#assist">Contact</a>
+        </div>
+        <div style="margin-top: 4px;">
+            &copy; 1987 - 2026 Ruy's Bank. All rights pretended.
+            <br>
+            <i>Best viewed in Netscape Navigator 4.7 at 800x600 resolution.</i>
+        </div>
+        <div class="fdic-notice">
+            NOT FDIC INSURED &middot; NOT A BANK DEPOSIT &middot; NOT A REAL BANK &middot; NO VALUE
+        </div>
+        <div>
+            Visitors: <span class="hit-counter">0042873</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

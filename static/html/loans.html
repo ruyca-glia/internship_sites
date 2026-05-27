@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruy's Bank :: Personal & Business Loans</title>
+    <meta name="description" content="Loan products page on the Ruy's Bank demo website. Demonstration purposes only - not a real bank.">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script async src="https://api.glia.com/salemove_integration.js"></script>
+</head>
+<body>
+
+<div class="disclaimer-bar">
+    *** NOTICE: THIS IS A DEMONSTRATION WEBSITE FOR DEBUGGING AND TESTING PURPOSES ONLY. RUY'S BANK IS NOT A REAL FINANCIAL INSTITUTION. NO REAL LOANS ARE OFFERED. ***
+</div>
+
+<div class="page-container">
+
+    <div class="bank-header">
+        <h1>&#9733; Ruy's Bank &#9733;</h1>
+        <div class="tagline">&quot;Where Your Trust Earns Compound Interest&quot;</div>
+        <div class="est">EST. 1987</div>
+    </div>
+
+    <ul class="nav-bar">
+        <li><a href="../../index.html">[ Home ]</a></li>
+        <li class="active"><a href="loans.html">[ Loans ]</a></li>
+        <li><a href="deposits.html">[ Deposits ]</a></li>
+        <li><a href="#assist">[ Contact Us ]</a></li>
+    </ul>
+
+    <div class="content">
+
+        <table class="layout-table">
+        <tr>
+        <td class="main-col">
+
+            <h2>Loan Products &amp; Services</h2>
+
+            <p>
+                Welcome to the Ruy's Bank Loans Department! At our (entirely fictional)
+                lending institution, we believe that everyone deserves access to imaginary
+                capital. Whether you're financing a make-believe home, a pretend automobile,
+                or simply consolidating some hypothetical debt, our loan officers are
+                here to (not actually) help.
+            </p>
+
+            <div class="callout-box">
+                <div class="callout-title">&#9888; Please Note</div>
+                <p style="margin: 0; font-size: 12px;">
+                    This page exists for software testing and quality assurance purposes.
+                    No actual loan applications will be processed. Do not enter any real
+                    personal or financial information.
+                </p>
+            </div>
+
+            <h3>Available Loan Products <span class="new-badge">NEW!</span></h3>
+
+            <table class="rates-table">
+                <tr>
+                    <th>Loan Type</th>
+                    <th>Starting APR</th>
+                    <th>Max. Term</th>
+                    <th>Min. Amount</th>
+                </tr>
+                <tr>
+                    <td>Personal Loan</td>
+                    <td>9.99%</td>
+                    <td>60 months</td>
+                    <td>$1,000</td>
+                </tr>
+                <tr>
+                    <td>Auto Loan (New)</td>
+                    <td>6.49%</td>
+                    <td>72 months</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>Auto Loan (Used)</td>
+                    <td>7.89%</td>
+                    <td>60 months</td>
+                    <td>$3,000</td>
+                </tr>
+                <tr>
+                    <td>Home Mortgage (30-yr)</td>
+                    <td>6.75%</td>
+                    <td>360 months</td>
+                    <td>$50,000</td>
+                </tr>
+                <tr>
+                    <td>Home Equity Line</td>
+                    <td>7.75%</td>
+                    <td>180 months</td>
+                    <td>$10,000</td>
+                </tr>
+                <tr>
+                    <td>Small Business Loan</td>
+                    <td>8.50%</td>
+                    <td>120 months</td>
+                    <td>$25,000</td>
+                </tr>
+            </table>
+
+            <hr class="fancy">
+
+            <h3>Loan Application Process</h3>
+            <p>Applying for a loan at our pretend bank is easier than ever:</p>
+            <ol class="bullet-list">
+                <li><b>Step 1:</b> Choose your loan type from the list above.</li>
+                <li><b>Step 2:</b> Gather your (imaginary) documentation.</li>
+                <li><b>Step 3:</b> Submit the form below.</li>
+                <li><b>Step 4:</b> Wait approximately zero business days for our automated denial.</li>
+            </ol>
+
+            <a href="#details" class="read-more-link btn-3d">More Details on Eligibility &raquo;</a>
+            <a href="#hide-details" class="read-more-link btn-3d">&laquo; Hide Details</a>
+
+            <div class="expandable" id="details">
+                <p><b>Eligibility Requirements (Demo):</b></p>
+                <ul class="bullet-list">
+                    <li>Must be a fictional resident of a fictional country.</li>
+                    <li>Must have an imaginary credit score above 600.</li>
+                    <li>Must agree that nothing on this site is real.</li>
+                    <li>Must be at least 18 years of fake age.</li>
+                    <li>Must have a stable source of make-believe income.</li>
+                </ul>
+                <p>
+                    <b>Documentation Required:</b> Nothing! Please do not submit any
+                    real documents. This is a test environment.
+                </p>
+                <a href="#hide-details" class="collapse-link">[ &times; Hide this section ]</a>
+            </div>
+            <div class="expandable" id="hide-details"></div>
+
+            <h3 id="loan-form">Pre-Qualification Form</h3>
+
+            <form class="classic-form" action="#" method="post" onsubmit="return false;">
+
+                <fieldset>
+                    <legend>Applicant Information</legend>
+
+                    <label for="lname">Full Legal Name (do not enter real name):</label>
+                    <input type="text" id="lname" name="lname" placeholder="Test User">
+
+                    <label for="lemail">E-Mail Address:</label>
+                    <input type="email" id="lemail" name="lemail" placeholder="test@example.com">
+
+                    <label for="ltype">Loan Type Requested:</label>
+                    <select id="ltype" name="ltype">
+                        <option value="">-- Please Select --</option>
+                        <option value="personal">Personal Loan</option>
+                        <option value="auto-new">Auto Loan (New)</option>
+                        <option value="auto-used">Auto Loan (Used)</option>
+                        <option value="mortgage">Home Mortgage</option>
+                        <option value="heloc">Home Equity Line</option>
+                        <option value="business">Small Business Loan</option>
+                    </select>
+
+                    <label for="lamount">Requested Amount ($):</label>
+                    <input type="number" id="lamount" name="lamount" min="1000" max="999999" step="100" value="10000">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Service Survey (CSAT)</legend>
+
+                    <label for="lcsat">How would you rate our loan service today? (1-10):</label>
+                    <div class="csat-rating">
+                        <input type="number" id="lcsat" name="lcsat" min="1" max="10" step="1" value="10">
+                        <div class="scale-hint">
+                            ( 1 = Very Dissatisfied &nbsp; &nbsp; 10 = Extremely Satisfied )
+                        </div>
+                    </div>
+
+                    <label for="lcomments">Comments or special requests:</label>
+                    <textarea id="lcomments" name="lcomments" rows="3"></textarea>
+                </fieldset>
+
+                <div style="text-align: right; margin-top: 10px;">
+                    <button type="reset" class="btn-3d">Reset</button>
+                    &nbsp;
+                    <button type="submit" class="btn-3d btn-primary">Submit Application &raquo;</button>
+                </div>
+
+            </form>
+
+            <div id="assist" style="text-align: center; margin: 20px 0;">
+                <button type="button" class="btn-3d btn-assistance" onclick="alert('A loan officer will contact you shortly. (Demo only - no real contact will occur.)');">
+                    &#9742; Need Assistance?
+                </button>
+            </div>
+
+        </td>
+
+        <td class="side-col">
+
+            <div class="side-box">
+                <h4>&#9658; Loan Calculator</h4>
+                <p style="font-size: 11px;">
+                    Our handy (fake) loan calculator helps you estimate your imaginary
+                    monthly payments.
+                </p>
+                <p style="text-align: center;">
+                    <button type="button" class="btn-3d" onclick="alert('Calculator not implemented in this demo.');">
+                        Launch &raquo;
+                    </button>
+                </p>
+            </div>
+
+            <div class="side-box">
+                <h4>&#9658; Why Choose Us?</h4>
+                <ul class="bullet-list" style="font-size: 11px;">
+                    <li>No real money at stake</li>
+                    <li>Instant fake approvals</li>
+                    <li>Zero paperwork required</li>
+                    <li>24/7 imaginary support</li>
+                    <li>Authentic 1990s aesthetics</li>
+                </ul>
+            </div>
+
+            <div class="callout-box">
+                <div class="callout-title">&#9888; Borrower Tip</div>
+                <p style="margin: 0; font-size: 12px;">
+                    Always read the fine print on any real loan agreement.
+                    On this site, however, the fine print is the whole point: this is fake.
+                </p>
+            </div>
+
+        </td>
+        </tr>
+        </table>
+
+    </div>
+
+    <div class="bank-footer">
+        <div>
+            <b>Ruy's Bank</b> &mdash; A Subsidiary of The Department of Things That Are Not Real
+        </div>
+        <div class="footer-links">
+            <a href="../../index.html">Home</a> |
+            <a href="loans.html">Loans</a> |
+            <a href="deposits.html">Deposits</a> |
+            <a href="#assist">Contact</a>
+        </div>
+        <div style="margin-top: 4px;">
+            &copy; 1987 - 2026 Ruy's Bank. All rights pretended.
+            <br>
+            <i>Best viewed in Netscape Navigator 4.7 at 800x600 resolution.</i>
+        </div>
+        <div class="fdic-notice">
+            NOT FDIC INSURED &middot; NOT A BANK DEPOSIT &middot; NOT A REAL BANK &middot; NO VALUE
+        </div>
+        <div>
+            Visitors: <span class="hit-counter">0042872</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

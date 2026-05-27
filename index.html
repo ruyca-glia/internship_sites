@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruy's Bank :: Welcome - Your Trusted Financial Partner Since 1987</title>
+    <meta name="description" content="Ruy's Bank - A demonstration banking website for debugging and testing purposes only. Not a real financial institution.">
+    <meta name="keywords" content="bank, demo, test, debugging, finance, loans, deposits">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script async src="https://api.glia.com/salemove_integration.js"></script>
+</head>
+<body>
+
+<!-- =========== TOP DISCLAIMER =========== -->
+<div class="disclaimer-bar">
+    *** NOTICE: THIS IS A DEMONSTRATION WEBSITE FOR DEBUGGING AND TESTING PURPOSES ONLY. RUY'S BANK IS NOT A REAL FINANCIAL INSTITUTION. NO REAL FINANCIAL SERVICES ARE OFFERED. ***
+</div>
+
+<div class="page-container">
+
+    <!-- =========== HEADER =========== -->
+    <div class="bank-header">
+        <h1>&#9733; Ruy's Bank &#9733;</h1>
+        <div class="tagline">&quot;Where Your Trust Earns Compound Interest&quot;</div>
+        <div class="est">EST. 1987</div>
+    </div>
+
+    <!-- =========== NAVIGATION =========== -->
+    <ul class="nav-bar">
+        <li class="active"><a href="index.html">[ Home ]</a></li>
+        <li><a href="static/html/loans.html">[ Loans ]</a></li>
+        <li><a href="static/html/deposits.html">[ Deposits ]</a></li>
+        <li><a href="#contact-form">[ Contact Us ]</a></li>
+    </ul>
+
+    <!-- =========== CONTENT =========== -->
+    <div class="content">
+
+        <table class="layout-table">
+        <tr>
+        <!-- =========== MAIN COLUMN =========== -->
+        <td class="main-col">
+
+            <h2>Welcome to Ruy's Bank!</h2>
+
+            <p>
+                <b>Thank you for visiting our website.</b> Ruy's Bank is proud to serve the
+                great people of the Internet with the finest in <i>simulated</i> banking services.
+                For over <b>thirty-nine years</b> (in our pretend timeline), we have offered our
+                imaginary customers the security and stability they deserve.
+            </p>
+
+            <p>
+                Whether you are looking to take out a <a href="static/html/loans.html">personal loan</a>,
+                open a new <a href="static/html/deposits.html">savings deposit</a>, or simply explore
+                what a banking website looked like before responsive design existed,
+                Ruy's Bank is here to help.
+            </p>
+
+            <div class="under-construction">
+                &#9888; SECTION UNDER CONSTRUCTION &#9888; <br>
+                Please pardon our digital dust while we polish the marble floors of the lobby.
+            </div>
+
+            <h3>Today's Featured Rates <span class="new-badge">NEW!</span></h3>
+
+            <table class="rates-table">
+                <tr>
+                    <th>Product</th>
+                    <th>APR / APY</th>
+                    <th>Term</th>
+                </tr>
+                <tr>
+                    <td>Premium Savings Account</td>
+                    <td>4.25% APY</td>
+                    <td>Variable</td>
+                </tr>
+                <tr>
+                    <td>12-Month Certificate of Deposit</td>
+                    <td>5.10% APY</td>
+                    <td>12 Months</td>
+                </tr>
+                <tr>
+                    <td>Personal Loan</td>
+                    <td>9.99% APR</td>
+                    <td>Up to 60 Months</td>
+                </tr>
+                <tr>
+                    <td>Home Equity Line</td>
+                    <td>7.75% APR</td>
+                    <td>Up to 15 Years</td>
+                </tr>
+            </table>
+
+            <p style="font-size: 11px; font-style: italic; color: #555;">
+                * Rates shown are fictional and used for demonstration only. APR/APY values
+                are illustrative. Please do not call our bank manager about them.
+            </p>
+
+            <hr class="fancy">
+
+            <!-- =========== READ MORE EXPANDABLE SECTION =========== -->
+            <h3>About Ruy's Bank</h3>
+            <p>
+                Founded in our pretend year of 1987 by a small team of fictional financial
+                visionaries, Ruy's Bank has grown into one of the most respected demonstration
+                banks on the entire localhost network.
+            </p>
+
+            <a href="#more-info" class="read-more-link btn-3d">Read More &raquo;</a>
+            <a href="#close-info" class="read-more-link btn-3d">&laquo; Close</a>
+
+            <div class="expandable" id="more-info">
+                <p>
+                    <b>Our Mission:</b> To provide a realistic-looking banking interface
+                    for developers, testers, and quality assurance engineers around the world.
+                </p>
+                <p>
+                    <b>Our Vision:</b> A world where every front-end developer has a believable
+                    place to test their integrations, form validations, and customer service widgets.
+                </p>
+                <p>
+                    <b>Our Values:</b> Honesty (we admit we're fake), Reliability
+                    (this HTML will render the same in Netscape Navigator and Chrome),
+                    and Nostalgia (look at these gradients!).
+                </p>
+                <p>
+                    Ruy's Bank does not store, process, or have any access to real financial
+                    data of any kind. Every page on this site exists for technical demonstration.
+                </p>
+                <a href="#close-info" class="collapse-link">[ &times; Hide this section ]</a>
+            </div>
+            <div class="expandable" id="close-info" style="display: none;"></div>
+
+            <!-- =========== CONTACT FORM =========== -->
+            <h3 id="contact-form">Contact Us &amp; Service Survey</h3>
+            <p>
+                We value your feedback! Please complete the form below to get in touch with
+                our (simulated) customer service department.
+            </p>
+
+            <form class="classic-form" action="#" method="post" onsubmit="return false;">
+
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" maxlength="60" placeholder="John Q. Customer">
+
+                    <label for="email">E-Mail Address:</label>
+                    <input type="email" id="email" name="email" maxlength="80" placeholder="you@example.com">
+
+                    <label for="inquiry">Reason for Inquiry:</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="">-- Please Select --</option>
+                        <option value="loan">Loan Question</option>
+                        <option value="deposit">Deposit / Savings Question</option>
+                        <option value="account">Existing Account Help</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Customer Satisfaction (CSAT)</legend>
+
+                    <label for="csat">On a scale of 1 to 10, how would you rate our banking service?</label>
+                    <div class="csat-rating">
+                        <input type="number" id="csat" name="csat" min="1" max="10" step="1" value="10">
+                        <div class="scale-hint">
+                            ( 1 = Very Dissatisfied &nbsp; &nbsp; 10 = Extremely Satisfied )
+                        </div>
+                    </div>
+
+                    <label for="comments">Additional Comments (optional):</label>
+                    <textarea id="comments" name="comments" rows="3" cols="40" placeholder="Tell us what you think..."></textarea>
+                </fieldset>
+
+                <div style="text-align: right; margin-top: 10px;">
+                    <button type="reset" class="btn-3d">Clear Form</button>
+                    &nbsp;
+                    <button type="submit" class="btn-3d btn-primary">Submit Inquiry &raquo;</button>
+                </div>
+
+            </form>
+
+            <div style="text-align: center; margin: 20px 0;">
+                <button type="button" class="btn-3d btn-assistance" onclick="alert('A customer service representative will be with you shortly. (This is a demo site - no real assistance will be provided.)');">
+                    &#9742; Need Assistance?
+                </button>
+            </div>
+
+        </td>
+
+        <!-- =========== SIDEBAR =========== -->
+        <td class="side-col">
+
+            <div class="side-box">
+                <h4>&#9658; Quick Links</h4>
+                <ul class="bullet-list">
+                    <li><a href="static/html/loans.html">Apply for a Loan</a></li>
+                    <li><a href="static/html/deposits.html">Open a Deposit Account</a></li>
+                    <li><a href="#contact-form">Customer Survey</a></li>
+                    <li><a href="#more-info">About Our Bank</a></li>
+                </ul>
+            </div>
+
+            <div class="side-box">
+                <h4>&#9658; Member Login</h4>
+                <p style="font-size: 11px;">
+                    <label for="username" style="font-weight: bold;">User ID:</label>
+                    <input type="text" id="username" style="width: 100%; border: 2px inset #ccc;">
+                    <label for="password" style="font-weight: bold; margin-top: 4px;">Password:</label>
+                    <input type="password" id="password" style="width: 100%; border: 2px inset #ccc;">
+                </p>
+                <div style="text-align: center;">
+                    <button type="button" class="btn-3d btn-primary" onclick="alert('Demo only - login is not functional.');">Sign In</button>
+                </div>
+                <p style="font-size: 10px; text-align: center; margin-top: 8px;">
+                    <a href="#">Forgot Password?</a>
+                </p>
+            </div>
+
+            <div class="callout-box">
+                <div class="callout-title">&#9888; Did You Know?</div>
+                <p style="margin: 0; font-size: 12px;">
+                    Ruy's Bank is open 24 hours a day, 7 days a week on the World Wide Web!
+                    Our virtual tellers never sleep, never take vacation, and never exist.
+                </p>
+            </div>
+
+            <div class="side-box" style="text-align: center;">
+                <h4>&#9658; Awards</h4>
+                <div style="font-size: 11px; line-height: 1.6;">
+                    &#9733; &#9733; &#9733; &#9733; &#9733; <br>
+                    <b>"Best Demo Bank"</b><br>
+                    <i>Internet Awards 2002</i>
+                    <br><br>
+                    &#9733; &#9733; &#9733; &#9733; &#9733; <br>
+                    <b>"Most Authentic Retro Site"</b><br>
+                    <i>Web Reviews Quarterly</i>
+                </div>
+            </div>
+
+        </td>
+        </tr>
+        </table>
+
+    </div>
+
+    <!-- =========== FOOTER =========== -->
+    <div class="bank-footer">
+        <div>
+            <b>Ruy's Bank</b> &mdash; A Subsidiary of The Department of Things That Are Not Real
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="static/html/loans.html">Loans</a> |
+            <a href="static/html/deposits.html">Deposits</a> |
+            <a href="#contact-form">Contact</a> |
+            <a href="#">Privacy</a> |
+            <a href="#">Terms</a> |
+            <a href="#">Site Map</a>
+        </div>
+        <div style="margin-top: 4px;">
+            &copy; 1987 - 2026 Ruy's Bank. All rights pretended.
+            <br>
+            <i>Best viewed in Netscape Navigator 4.7 at 800x600 resolution.</i>
+        </div>
+        <div class="fdic-notice">
+            NOT FDIC INSURED &middot; NOT A BANK DEPOSIT &middot; NOT A REAL BANK &middot; NO VALUE
+        </div>
+        <div>
+            Visitors:
+            <span class="hit-counter">0042871</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
